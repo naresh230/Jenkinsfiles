@@ -34,7 +34,7 @@ node('wallmart-slave1')
  sshagent(['f4b94e3e-8646-466e-af8e-f83a7607afc2']) 
  
  {
-    sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@13.127.153.62:/opt/tomcat9/webapps/"
+    sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@13.233.166.172:/opt/tomcat9/webapps/"
  }
  }
  /*
