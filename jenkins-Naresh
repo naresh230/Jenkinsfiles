@@ -1,4 +1,4 @@
-node('wallmar-slave1')
+node('wallmart-slave1')
 {
  
   def mavenHome = tool name: "maven-3.6.3" 
